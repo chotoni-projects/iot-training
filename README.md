@@ -1,23 +1,35 @@
-# iot-training
-
-cd C:\Program Files\mosquitto\mosquitto.exe
-mosquitto -c mosquitto.conf
-restart mosquitto service
-
-https://www.npmjs.com/package/mqtt#install
+# IOT TRAINING!
 
 
-create app.js
-npm init
-npm install mqtt
+## Praktek 1
 
+**Komunikasi Node JS dengan Browser**
 
-create index.js index.html index.css
-https://eclipse.dev/paho/index.php?page=clients/js/index.php
+ - [ ] Install Mosquitto
+ - [ ] Setup Mosquitto
+   
+    `cd C:\Program Files\mosquitto\mosquitto.exe`
+    `mosquitto -c mosquitto.conf`
+  
+ - [ ] Install Nodejs
+ - [ ] Create Project Nodejs
+ - [ ] Setup Browser Project
+ - [ ] Setup MQTT browser
+ - [ ] Setup Chart (ApexChart)
 
+## Praktek 2
 
+**Komunikasi Node JS dengan Database (Mysql)**
 
-QoS 0 : received at most once : The packet is sent, and that's it. There is no validation about whether it has been received.
-QoS 1 : received at least once : The packet is sent and stored as long as the client has not received a confirmation from the server. MQTT ensures that it will be received, but there can be duplicates.
-QoS 2 : received exactly once : Same as QoS 1 but there is no duplicates.
+ - [ ] Install Mysql/ Xampp
+ - [ ] Setup NPM MySQL
+ - [ ] Create MySQL function
+ - [ ] Post Data Logging to MySQL
+ - [ ] Get Data Logging on Browser
+
+## Praktek 3
+
+**Komunikasi Device dengan MQTT**
+
+ - [ ] On Progress
 
