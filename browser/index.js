@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 
     var options = {
-      series: [67],
+      series: [],
       chart: {
         height: 350,
         type: 'radialBar',
@@ -83,5 +83,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
       var chart = new ApexCharts(document.querySelector("#chart"), options);
       chart.render();
-      chart.updateSeries([35])
+      // chart.updateSeries([])
 });

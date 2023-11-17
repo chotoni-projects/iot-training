@@ -17,6 +17,15 @@
  - [ ] Setup MQTT browser
  - [ ] Setup Chart (ApexChart)
 
+ 
+ - [ ] Create account arduino CC
+ - [ ] Download Arduino Agent
+ - [ ] Copy Arduino Code
+ - [ ] Try Serial Monitor
+ - [ ] Connect Modul Potensio
+ - [ ] Install package serial (npm install serialport)
+ - [ ] Update Nodejs Code 
+
 ## Praktek 2
 
 **Komunikasi Node JS dengan Database (Mysql)**
